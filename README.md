@@ -1,4 +1,6 @@
 # Jenkins Fundamentals: CI/CD Pipelines from Theory to Practice on GCP
+<img width="1200" height="400" alt="Logo-Jenkins" src="https://github.com/user-attachments/assets/b9d53465-a79f-410d-bee2-3c937c0445be" />
+
 
 > **A hands-on, end-to-end record of learning Jenkins: first the theory (with real-world analogies), then a practical lab on a Google Cloud VM covering installation, Freestyle jobs, Declarative Pipelines, artifact archiving, credentials binding, and Multibranch Pipelines. Everything created in the lab is destroyed at the end so a company account incurs no ongoing cost.**
 
