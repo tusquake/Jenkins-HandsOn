@@ -1,0 +1,13 @@
+// Lab 4: Multibranch Pipeline sample (main branch).
+// The feature-payment branch uses the same structure with its own stage name.
+// scripts/create-sample-repo.sh builds both branches for you.
+pipeline {
+  agent any
+  stages {
+    stage('Main Branch Pipeline') {
+      steps {
+        echo "Executing pipeline on MAIN branch"
+      }
+    }
+  }
+}

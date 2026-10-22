@@ -824,16 +824,20 @@ gcloud compute disks list
 ```
 jenkins-learning/
 ├── README.md
-├── pipelines/
-│   ├── 01-freestyle-notes.md
-│   ├── 02-declarative-pipeline.Jenkinsfile
-│   ├── 03-credentials-pipeline.Jenkinsfile
-│   └── 04-multibranch-sample/
-│       └── Jenkinsfile
+├── .gitignore
+├── infra/
+│   ├── create-vm.sh
+│   └── teardown.sh
 ├── scripts/
 │   ├── install-java21.sh
-│   └── install-jenkins.sh
-└── .gitignore
+│   ├── install-jenkins.sh
+│   └── create-sample-repo.sh
+└── pipelines/
+    ├── 01-freestyle-notes.md
+    ├── 02-declarative-pipeline.Jenkinsfile
+    ├── 03-credentials-pipeline.Jenkinsfile
+    └── 04-multibranch-sample/
+        └── Jenkinsfile
 ```
 
 ### Further Reading

@@ -1,0 +1,24 @@
+# Secrets and keys
+*.pem
+*.key
+*.asc
+.env
+credentials.json
+
+# Terraform (if you add it later)
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# Jenkins runtime data (never commit JENKINS_HOME)
+jobs/
+workspace/
+secrets/
+config.xml
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
